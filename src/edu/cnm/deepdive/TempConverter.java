@@ -4,10 +4,18 @@ public class TempConverter {
 
    public static void main(String[] args) {
 
-    float tempF = Float.parseFloat(args[0]);
-    System.out.println(convertFToC(tempF));
-              
-   } 
+     for (int i = 0; i < args.length; ++i) {
+      String mode = System.getProperty("mode");
+      if (mode != null && mode.equals("c2f")) {
+        float tempC = Float.parseFloat(args[i]);
+        System.out.println(convertCToF(tempC));
+      }
+      else {
+      float tempF = Float.parseFloat(args[i]);
+      System.out.println(convertFToC(tempF));
+      }
+     }
+    }                      
 
   public static float convertFToC(float tempF) {
       
@@ -15,5 +23,13 @@ public class TempConverter {
     return tempC;
 
   } 
+
+  public static float convertCToF(float tempC) {
+      
+    float tempF = tempC * 9 /5 + 32;
+    return tempF;
+
+  } 
+
 
 }
