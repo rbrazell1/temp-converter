@@ -1,5 +1,8 @@
 package edu.cnm.deepdive;
 
+/**
+ * Created a simple class to convert Fahrenheit to Celsius
+ */ 
 public class TempConverter {
 
    public static void main(String[] args) {
@@ -15,21 +18,22 @@ public class TempConverter {
       System.out.println(convertFToC(tempF));
       }
      }
-    }                      
-
-  public static float convertFToC(float tempF) {
-      
+    }
+                          
+/**
+ * Converts Celsius to Fahrenheit
+ *
+ * @param tempF Converts Celsius to Fahrenheit 
+ * @return Temperature in Celsius
+ */
+  public static float convertFToC(float tempF) {   
     float tempC = (tempF - 32) * 5/9;
     return tempC;
-
   } 
 
-  public static float convertCToF(float tempC) {
-      
+  public static float convertCToF(float tempC) {  
     float tempF = tempC * 9 /5 + 32;
     return tempF;
-
   } 
-
 
 }
