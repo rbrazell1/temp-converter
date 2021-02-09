@@ -2,7 +2,8 @@ package edu.cnm.deepdive;
 
 /**
  * Simple class to demonstrate reading properties and iterating over arguments
- */ 
+ */
+
 public class TempConverter {
 
    public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class TempConverter {
     }
 
 /**
- *convert tempF (Fahrenheit) to a Celsius value
+ * convert tempF (Fahrenheit) to a Celsius value
  * @param tempF temperature in Fahrenheit degrees
  * @return Temperature in Celsius degrees
  */
