@@ -1,0 +1,7 @@
+-classpath 'C:\\Desktop\\bootcamp\\projects\\temp-converter\\build\\classes\\java\\main;C:\\Desktop\\bootcamp\\projects\\temp-converter\\build\\resources\\main'
+-d 'C:\\Desktop\\bootcamp\\projects\\temp-converter\\build\\docs\\javadoc'
+-doctitle 'temp-converter 1.0-SNAPSHOT API'
+-notimestamp 
+-quiet 
+-windowtitle 'temp-converter 1.0-SNAPSHOT API'
+'C:\\Desktop\\bootcamp\\projects\\temp-converter\\src\\main\\java\\edu\\cnm\\deepdive\\TempConverter.java'
