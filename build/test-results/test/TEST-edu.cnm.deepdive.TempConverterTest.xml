@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.cnm.deepdive.TempConverterTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-02-09T20:46:33" hostname="DESKTOP-6JKVG6K" time="0.049">
+<testsuite name="edu.cnm.deepdive.TempConverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-09T21:07:04" hostname="DESKTOP-6JKVG6K" time="0.038">
   <properties/>
-  <testcase name="convertCToF()" classname="edu.cnm.deepdive.TempConverterTest" time="0.044"/>
-  <testcase name="convertFToC()" classname="edu.cnm.deepdive.TempConverterTest" time="0.004"/>
-  <system-out><![CDATA[Input celsius =-40.000; Expected fahrenheit =-40.000; Actual fahrenheit =-40.000
-;Input celsius =0.000; Expected fahrenheit =32.000; Actual fahrenheit =32.000
-;Input celsius =100.000; Expected fahrenheit =212.000; Actual fahrenheit =212.000
-;Expected Celsius = -40.000; input fahrenheit =-40.000; actual celsius = -40.000
+  <testcase name="convertFToC()" classname="edu.cnm.deepdive.TempConverterTest" time="0.038"/>
+  <system-out><![CDATA[Expected Celsius = -40.000; input fahrenheit =-40.000; actual celsius = -40.000
 ;Expected Celsius = 0.000; input fahrenheit =32.000; actual celsius = 0.000
 ;Expected Celsius = 100.000; input fahrenheit =212.000; actual celsius = 100.000
 ;]]></system-out>
