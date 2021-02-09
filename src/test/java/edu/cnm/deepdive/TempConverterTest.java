@@ -13,19 +13,24 @@ class TempConverterTest {
 
   @Test
   void convertFToC() {
-    assertEquals(100, TempConverter.convertFToC(212), TOLERANCE_THOUSANDTHS);
-    assertEquals(-40, TempConverter.convertFToC(-40), TOLERANCE_THOUSANDTHS);
-    assertEquals(0, TempConverter.convertFToC(32), TOLERANCE_THOUSANDTHS);
-
-  }
+    for (int i = 0; i < celsius.length; i++){
+      float expected = celsius[i];
+      float actual = TempConverter.convertFToC(fahrenheit[i]);
+      System.out.printf("Expected Celsius = %.3f; input fahrenheit =%.3f; actual celsius = %.3f%n;",
+          expected, fahrenheit[i], actual);
+      assertEquals(expected, actual, TOLERANCE_THOUSANDTHS);
+    }
+   }
 
   @Test
   void convertCToF() {
-
-    assertEquals(212, TempConverter.convertCToF(100), TOLERANCE_TEN_THOUSANDTHS);
-    assertEquals(32, TempConverter.convertCToF(0), TOLERANCE_TEN_THOUSANDTHS);
-    assertEquals(-40, TempConverter.convertCToF(-40), TOLERANCE_TEN_THOUSANDTHS);
-
+    for (int i = 0; i < fahrenheit.length; i++){
+      float expected = fahrenheit[i];
+      float actual = TempConverter.convertCToF(celsius[i]);
+      System.out.printf("Input celsius =%.3f; Expected fahrenheit =%.3f; Actual fahrenheit =%.3f%n;",
+          celsius[i], expected, actual);
+      assertEquals(expected, actual, TOLERANCE_TEN_THOUSANDTHS);
+    }
   }
 
 }

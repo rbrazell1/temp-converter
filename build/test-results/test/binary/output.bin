@@ -1,0 +1,7 @@
+RInput celsius =-40.000; Expected fahrenheit =-40.000; Actual fahrenheit =-40.000
+O;Input celsius =0.000; Expected fahrenheit =32.000; Actual fahrenheit =32.000
+S;Input celsius =100.000; Expected fahrenheit =212.000; Actual fahrenheit =212.000
+;QExpected Celsius = -40.000; input fahrenheit =-40.000; actual celsius = -40.000
+M;Expected Celsius = 0.000; input fahrenheit =32.000; actual celsius = 0.000
+R;Expected Celsius = 100.000; input fahrenheit =212.000; actual celsius = 100.000
+;
