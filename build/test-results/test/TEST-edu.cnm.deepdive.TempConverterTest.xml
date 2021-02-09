@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.cnm.deepdive.TempConverterTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-09T18:05:15" hostname="DESKTOP-6JKVG6K" time="0.025">
+  <properties/>
+  <testcase name="convertFToC()" classname="edu.cnm.deepdive.TempConverterTest" time="0.025"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
