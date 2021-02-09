@@ -8,6 +8,8 @@ class TempConverterTest {
 
   static final float TOLERANCE_THOUSANDTHS = .001f;
   static final float TOLERANCE_TEN_THOUSANDTHS = .0018f;
+  static final float[] celsius = {-40, 0, 100};
+  static final float[] fahrenheit = {-40, 32, 212};
 
   @Test
   void convertFToC() {
@@ -21,7 +23,7 @@ class TempConverterTest {
   void convertCToF() {
 
     assertEquals(212, TempConverter.convertCToF(100), TOLERANCE_TEN_THOUSANDTHS);
-    assertEquals( 32, TempConverter.convertCToF(0), TOLERANCE_TEN_THOUSANDTHS);
+    assertEquals(32, TempConverter.convertCToF(0), TOLERANCE_TEN_THOUSANDTHS);
     assertEquals(-40, TempConverter.convertCToF(-40), TOLERANCE_TEN_THOUSANDTHS);
 
   }
