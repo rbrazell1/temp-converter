@@ -1,7 +1,7 @@
 package edu.cnm.deepdive;
 
 /**
- * Created a simple class to convert Fahrenheit to Celsius
+ * Simple class to demonstrate reading properties and iterating over arguments
  */ 
 public class TempConverter {
 
@@ -23,10 +23,9 @@ public class TempConverter {
     }
 
 /**
- * Converts Celsius to Fahrenheit
- *
- * @param tempF Converts Celsius to Fahrenheit 
- * @return Temperature in Celsius
+ *convert tempF (Fahrenheit) to a Celsius value
+ * @param tempF temperature in Fahrenheit degrees
+ * @return Temperature in Celsius degrees
  */
   public static float convertFToC(float tempF) {   
     float tempC = (tempF - 32) * 5/9;
