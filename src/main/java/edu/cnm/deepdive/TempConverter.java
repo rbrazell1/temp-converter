@@ -13,10 +13,10 @@ public class TempConverter {
      for (String arg : args) {
 
        if (mode != null && mode.equals("c2f")) {
-         float tempC = Float.parseFloat(arg);
+         double tempC = Double.parseDouble(arg);
          System.out.println(convertCToF(tempC));
        } else {
-         float tempF = Float.parseFloat(arg);
+         double tempF = Double.parseDouble(arg);
          System.out.println(convertFToC(tempF));
        }
      }
@@ -27,12 +27,16 @@ public class TempConverter {
  * @param tempF temperature in Fahrenheit degrees
  * @return Temperature in Celsius degrees
  */
-  public static float convertFToC(float tempF) {
+  public static double convertFToC(double tempF) {
     return (tempF - 32) * 5/9;
   } 
 
-  public static float convertCToF(float tempC) {
+  public static double convertCToF(double tempC) {
     return tempC * 9 /5 + 32;
-  } 
+  }
+
+  public static double convertKToC(double tempK) {
+    return tempK - 273.15;
+  }
 
 }
